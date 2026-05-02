@@ -62,7 +62,7 @@ imageset/
 
 ---
 
-## 🛠 Environment & Dependencies
+## Environment & Dependencies
 
 ```
 Python >= 3.8
