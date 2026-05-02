@@ -1,21 +1,21 @@
-# 🍎 Fruit Image Classification — Team 8
+# Fruit Image Classification — Team 8
 
 > CNN-based 100-class fruit image classification project  
 > Introduction to AI Programming | 2026 Spring Semester
 
 ---
 
-## 👥 Team Members
+## Team Members
 
-| Name | Role |
-|------|------|
-| Junyoung Kim | Model implementation, Training |
-| MinJun Kim | Data preprocessing, Evaluation |
-| Daewook Jeon | Analysis, Report writing |
+| Name |
+|------|
+| Junyoung Kim |
+| MinJun Kim |
+| Daewook Jeon |
 
 ---
 
-## 📌 Project Goal
+## Project Goal
 
 Build and compare CNN-based image classifiers on the **Fruits-100** dataset (100 classes, 45,000 images).  
 Three models are trained and compared:
@@ -26,7 +26,7 @@ Three models are trained and compared:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Name**: Fruits-100
 - **Source**: [Kaggle — marquis03/fruits-100](https://www.kaggle.com/datasets/marquis03/fruits-100)
@@ -138,7 +138,7 @@ Each training script automatically generates the following in the output directo
 
 ---
 
-## 🎮 Inference Demo
+## Inference Demo
 
 Run the Gradio demo using the best ResNet50 checkpoint:
 
@@ -159,13 +159,13 @@ Then open the URL shown in the terminal (e.g., `http://127.0.0.1:7860`).
 |-------|-------------|--------------|--------|---------------|
 | Baseline CNN | 41.42% | 0.4034 | ~45K | ~10.7 min |
 | VGG16-style (scratch) | 48.74% | 0.4676 | ~134.7M | ~43.2 min |
-| **ResNet50 (pretrained)** ⭐ | **82.02%** | **0.8199** | ~23.7M | ~24.1 min |
+| ResNet50 (pretrained) ⭐ | **82.02%** | **0.8199** | ~23.7M | ~24.1 min |
 
 > Best checkpoint: ResNet50, Epoch 20
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
