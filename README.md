@@ -82,7 +82,7 @@ pip install torch torchvision scikit-learn matplotlib numpy gradio
 
 ---
 
-## 🚀 Training
+## Training
 
 ### Baseline CNN
 
@@ -123,7 +123,7 @@ python resnet50.py \
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 Each training script automatically generates the following in the output directory:
 
@@ -153,7 +153,7 @@ Then open the URL shown in the terminal (e.g., `http://127.0.0.1:7860`).
 
 ---
 
-## 📈 Main Results
+## Main Results
 
 | Model | Val Accuracy | Val Macro-F1 | Params | Training Time |
 |-------|-------------|--------------|--------|---------------|
@@ -180,9 +180,3 @@ Then open the URL shown in the terminal (e.g., `http://127.0.0.1:7860`).
     └── resnet50/
         └── best_model_resnet50.pth
 ```
-
----
-
-## 📝 License
-
-This project is for academic purposes only.
